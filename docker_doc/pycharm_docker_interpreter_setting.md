@@ -29,11 +29,11 @@
 
    1. settings( preference ) > Build, Execution, Deployment > Docker 메뉴로 들어간다.
 
-      ![Docker settings image](.\images\docker_service_setting.jpg)
+      ![Docker settings image](./images/docker_service_setting.jpg)
 
    2. +버튼을 눌러 도커 서비스를 추가하고 아래와 같이 생성해준다. 이름은 아무렇게 입력해도 상관 없다.
 
-      ![pycharm create docker service](.\images\create_docker_service.jpg)
+      ![pycharm create docker service](./images/create_docker_service.jpg)
 
    3. 맥같은 경우는 docker for mac 항목이 존재하며 해당 항목을 선택후 ok버튼을 누르면 된다.
 
@@ -55,11 +55,11 @@
 
    1. settings( preference ) > project: <프로젝트 디렉토리 이름> > Project Interpreter 메뉴로 이동
 
-      ![pycharm project interpreter](.\images\pycarh_project_interpreter.jpg)
+      ![pycharm project interpreter](./images/pycarh_project_interpreter.jpg)
 
    2. 톱니바퀴 버튼을 눌러 Add 버튼을 눌러주고 아래와 같이 설정한다.
 
-      ![create python interpreter](.\images\create_docker_interpreter.jpg)
+      ![create python interpreter](./images/create_docker_interpreter.jpg)
 
       - Server : 도커 서버를 의미한다.
 
@@ -73,11 +73,11 @@
 
       도커 파이썬 인터프리터가 프로젝트 디렉토리인지할 수 있도록 매핑해줘야 한다.
 
-      ![empty path mapping](.\images\empty_path_mapping.jpg)
+      ![empty path mapping](./images/empty_path_mapping.jpg)
 
       위와 같이 (Empty) 상태를 변경해줘야한다. path mappings의 디렉토리 표시를 눌러 추가해준다.
 
-      ![add path mapping](.\images\add_path_mapping.jpg)
+      ![add path mapping](./images/add_path_mapping.jpg)
 
       - Local Path : 프로젝트 루트 절대경로이다.
       - Remote Path : 파이참에서 프로젝트디렉토리를 읽기 위해 사용하는 경로이다.
@@ -92,7 +92,7 @@
 
    1. 파이참 파이썬 콘솔 
 
-      ![test python console](.\images\test.jpg)
+      ![test python console](./images/test.jpg)
 
       정상적으로 동작하는 모습을 볼 수 있다.
 
@@ -106,11 +106,11 @@
 
       간단히 만든 스크립트를 실행을 해보도록 하자.
 
-      ![test cript](.\images\run_script.jpg)
+      ![test cript](./images/run_script.jpg)
 
       스크립트 실행 결과
 
-      ![result script](.\images\result_script.jpg)
+      ![result script](./images/result_script.jpg)
 
 
 
